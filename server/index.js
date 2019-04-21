@@ -5,7 +5,7 @@ import cityInterface from './interface/city'
 async function start() {
   const app = new Koa()
   const host = process.env.HOST || '127.0.0.1'
-  const port = process.env.PORT || 3000
+  const port = process.env.PORT || 3001
 
   // Import and Set Nuxt.js options
   const config = require('../nuxt.config.js')
